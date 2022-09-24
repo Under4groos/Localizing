@@ -1,0 +1,20 @@
+﻿<UserControl x:Class="Localizing.View.Controls.MyControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Localizing.View.Controls"
+             Width="100" Height="100"
+             mc:Ignorable="d" Background="Blue"
+              >
+    <Grid>
+        <StackPanel>
+            <Image Source="https://i.imgur.com/D3XA701.png" Margin="-100"/>
+            <Label Content="{DynamicResource name_app}"  Foreground="White"/>
+            <Label Content="{DynamicResource name_app}" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <Label Content="{DynamicResource name_app}" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+
+
+        </StackPanel>
+    </Grid>
+</UserControl>
